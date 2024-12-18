@@ -12,7 +12,7 @@ The ISO/OSI model is a reference model that explains how computers communicate w
 
 The above seven layers are discussed below
 
-![[7Layers.webp]]
+![7Layers.webp](https://github.com/prakshitvjain/OSImodel/blob/main/7Layers.webp)
 
 Every message from the client side flows through the seven layers to the Physical layer and flows through numerous networks and traverses all the seven layers all the way to the Application Layer. Numerous processes like segmentation, routing, fragmentation etc take place during this interval. Let us dive deep into what actually happens in each layer. 
 ### Physical Layer
