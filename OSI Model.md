@@ -78,7 +78,7 @@ UDP is a fast, unreliable and connection-less protocol used to transmit segments
 ### Session Layer
 The Session Layer is responsible for establishing, maintaining and terminating the interactions between the devices. The Session Layer acts as a dialog controller by creating a dialog where devices can interact. The Session Layer also provides Synchronization.
 
-![Session.jpg](https://github.com/prakshitvjain/OSImodel/blob/main/Session.png)
+![Session.jpg](https://github.com/prakshitvjain/OSImodel/blob/main/Session.jpg)
 ##### Synchronization
 This layer allows to add checkpoints called synchronization points in the data. These synchronization points help to rollback data loss is avoided.
 If some error occurs during transmission of data, then the transmission starts again from those checkpoints, preventing data loss.
