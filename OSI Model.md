@@ -30,13 +30,13 @@ The Data-Link Layer is responsible for reliable transfer of frames from one node
 ![Datalink.png](https://github.com/prakshitvjain/OSImodel/blob/main/Datalink.png)
 
 The Data-Link Layer is divided into two sub-layers
-##### Logical Link Control Layer
+#### Logical Link Control Layer
 The Logical Link Control layer is responsible for receiving data from the Network layer, encapsulating the data into frames and passing it to the MAC Layer. On receiving end, the data is extracted from the frames and forwarded to the Network layer. This layer also provides Flow Control.
-###### Flow Control
+##### Flow Control
 Flow Control refers to a technique where constant data rate is maintained on either sides during transmission. This helps to prevent data corruption or congestion, ensuring smooth transmission. This acts as a safety measure during varying speeds or high traffic.
-##### Media Access Control Layer
+#### Media Access Control Layer
 The Media Access Control Layer acts as a bridge between the Logical Link Control Layer and the Physical Layer. It is used to transfer frames over a network. The MAC Layer is responsible for Access Control.
-###### Access Control
+##### Access Control
 The Media Access Control Layer decides who in the communication channel has control over the channel and gets to send the data to avoid collisions. This is helpful when a single communication channel is shared by multiple devices.
 
 ### Network Layer
@@ -58,9 +58,9 @@ Below are the fields of IP Header (32 bits):
 - Flags: Used to control fragmentation (whether the packet can be fragmented or not)
 - Fragment Offset: specifies the position of fragment in the packet, if fragmented.
 - Header Checksum: Used to verify the integrity of the packet.
-##### Security Measure
+#### Security Measure
 Hardware Firewalls can be implemented to maximize the security of the systems. This firewall also helps to prevent DDoS attacks. These devices can act as a solid defense from malicious and unauthorized access.
-###### Firewall
+##### Firewall
 Firewall is basically a protective wall that analyzes and monitors the incoming traffic and requests. It filters out the illegitimate requests and allows only legitimate traffic to enter the network using appropriate guidelines set by the security team. The suspicious or illegitimate requests are discarded by the firewall protecting the system.
 
 ### Transport Layer
